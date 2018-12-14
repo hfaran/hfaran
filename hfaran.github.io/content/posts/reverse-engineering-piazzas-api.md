@@ -15,7 +15,7 @@ I wrote <code>piazza-api</code> a while ago when it was just essentially a more 
 <h1>Capturing API Calls</h1>
 There are several ways that I could go about doing this. I could inspect the client code for API calls. I could use Chrome Dev Tools. Or I could use Fiddler (not because it's any better than CDT, it's just another option). I will be using a bit of both here. If you want to skip the Fiddler setup, simply press <em>F12</em> and open the <em>Network</em> tab if you're using Chrome.
 <h2>Meet <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a></h2>
-![Fiddler In a Nutshell](fiddler_diag.png)
+![Fiddler In a Nutshell](/piazza/fiddler_diag.png)
 *Fiddler In a Nutshell*
 
 Fiddler is a proxy that captures all HTTP(S) requests and responses going in and out of your system. It's a great tool for web debugging (and in this case, reverse-engineering private APIs). There are several alternatives, such as Charles, however, Fiddler is free (and manages to be excellent at the same time). Anyways, enough praise; the point I'm trying to make is that a tool like Fiddler makes this dead easy.
