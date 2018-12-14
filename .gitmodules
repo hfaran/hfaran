@@ -4,3 +4,7 @@
 [submodule "hfaran.github.io/themes/ananke"]
 	path = hfaran.github.io/themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "hfaran.github.io/public"]
+	path = hfaran.github.io/public
+	url = git@github.com:hfaran/hfaran.github.io.git
+	branch = master
